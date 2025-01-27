@@ -21,6 +21,11 @@ class ClienteController extends Controller
         return view('clientes.index', compact('clientes', 'search'));
     }
 
+    // Exibe o formulário de criação de um cliente
+    public function create()
+    {
+        return view('clientes.create'); // Retorna a view com o formulário de criação
+    }
 
     // Armazena o novo cliente no banco de dados
     public function store(Request $request)

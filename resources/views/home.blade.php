@@ -4,8 +4,8 @@
 
 <style>.imagens img {
         
-    width: 500px;        /* Limita a largura máxima da imagem a 300px */
-    height: 500px;            /* Mantém a proporção da imagem */
+    width: 100px;        /* Limita a largura máxima da imagem a 300px */
+    height: 100px;            /* Mantém a proporção da imagem */
     border-radius: 50%;      /* Torna a imagem redonda */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Adiciona uma sombra suave */
     display: block;          /* Remove o espaço abaixo da imagem */

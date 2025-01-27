@@ -11,8 +11,9 @@ class Pedido extends Model
 
     protected $table = 'pedidos';
 
-    protected $primaryKey = 'ID';
 
+    protected $primaryKey = 'ID';  // Defina a chave primária caso seja diferente de 'id'
+   
     protected $fillable = [
         'N_Serie',
         'Comprimento',
